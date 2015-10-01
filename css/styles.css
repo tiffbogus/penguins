@@ -9,7 +9,19 @@ h1 {
   font-family: sans-serif;
 }
 
+h3 {
+  color: #0088cc;
+}
+
 p {
   color: white;
   font-family: sans-serif;
+}
+
+.tog {
+ display: none;
+}
+
+.fad {
+ display: none;
 }

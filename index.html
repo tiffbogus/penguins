@@ -2,31 +2,31 @@
 <html>
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.11.3.js"></script>
-    <script src="js/scripts.js"></script>
+
     <title>Penguins!</title>
   </head>
   <body>
+    <div class="container">
     <h1>Penguins!</h1>
 
-    <img src="img/pen1.jpeg">
-    <p>This is a regular penguin.</p>
+    <div id="toggle">
+      <h3>Click here to make a regular penguin suddenly appear</h3>
+      <img class="tog" img src="img/pen1.jpeg">
+      <p class="tog">This is a regular penguin.</p>
+    </div>
+    <div id="fade">
+      <h3>Click here to make a baby penguin fade in</h3>
+      <img class="fad" img src="img/babypenguin.jpeg">
+      <p class="fad"> This is a baby penguin. Isn't he cute?</p>
+    </div>
 
-    <img src="img/babypenguin.jpeg">
-    <p> This is a baby penguin. Isn't he cute?</p>
-
-    <img src="img/dancingpenguin.jpeg">
-    <p> This penguin is dancing. I wonder why he's in the mood?</p>
-
-    <img src="img/glassespenguin.jpeg">
-    <p> This penguin is wearing glasses. He gets made fun of in penguin college.</p>
-
-    <img src="img/handholdpenguins.jpeg">
-    <p> These penguins are holding hands. They must like each other.</p>
-
-    <img src="img/oldmanpenguin.jpeg">
-    <p> This is old man penguin. He always shows up last because he is slow.</p>
-
-
+    <div id="slide">
+      <h3>Click here to make a dancing penguin slide-dance into view.</h3>
+      <img src="img/dancingpenguin.jpeg">
+      <p> This penguin is dancing. I wonder why he's in the mood?</p>
+    </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
